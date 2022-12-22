@@ -14,8 +14,9 @@ public class Book {
     }
 
     //Prints the details of book.
-    public void printBook(){
-        System.out.println("Book ID: " + this.BookId + ". Title: " + this.Title + ". Author: " + this.Author + ". Price: " + this.Price);
+
+    public String toString (){
+        return "Book ID: " + this.BookId + ". Title: " + this.Title + ". Author: " + this.Author + ". Price: " + this.Price;
     }
 
 
